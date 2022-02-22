@@ -32,7 +32,7 @@ malapi::get_anime_ranking(ranking_type = "airing",
                                 fields = c("start_date", "synopsis", "mean"),
                              client_id = "yourclientid")
 
-malapi::get_anime_search(search_term = "one",
+malapi::get_anime_search(search_term = "one punch",
                               fields = c("status", "genres"),
                            client_id = "yourclientid")
 
