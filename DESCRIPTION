@@ -1,0 +1,21 @@
+Package: malapi
+Type: Package
+Title: Connects to the MyAnimeList API (beta ver.) (2)
+Version: 0.1.0
+Authors@R: person("Benjamin", "Jones" ,,"benjones781@gmail.com", role = c("aut", "cre"))
+Maintainer: Benjamin Jones <benjones781@gmail.com>
+Description: Connects to the MyAnimeList API (beta ver.) (2).
+    Queries myanimelist.com for public anime and manga lists, details, and rankings.
+    While user login is not requred, MAL API access is restricted to owners of a MAL Client ID.
+    See here for guide on how to obtain a MAL Client ID: https://myanimelist.net/blog.php?eid=835707.
+License: MIT + file LICENSE
+Imports:
+    httr,
+    jsonlite
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
